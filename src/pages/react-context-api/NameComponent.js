@@ -14,4 +14,4 @@ const Name = () => {
   );
 };
 
-export default Name;
+export default Name
