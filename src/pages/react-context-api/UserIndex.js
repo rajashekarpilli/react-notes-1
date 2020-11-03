@@ -10,14 +10,14 @@ function UserIndex() {
     return (
         <UserProvider>
             <div className="App">
-                <h2 className="is-size-4">
+                <h4 className="is-size-4">
                     We'll use the React Context API to pass and receive data in
                     any component.
-                </h2>
+                </h4>
                 <div className="container">
                     <UserForm />
 
-                    <h2 className="is-size-4">Display User Info Here 👇</h2>
+                    <h4 className="is-size-4">Display User Info Here 👇</h4>
                     <p>
                         These two children components will receive data. These could
                         be nested components.

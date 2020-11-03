@@ -8,9 +8,9 @@ const Location = () => {
   return (
     <div>
       {/* Display user's location from Context */}
-      <h2 className="is-size-4">
+      <h4 className="is-size-4">
         <strong>Location</strong>: {user.location}
-      </h2>
+      </h4>
     </div>
   );
 };
