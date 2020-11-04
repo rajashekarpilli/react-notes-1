@@ -5,8 +5,9 @@ import CountriesSearch from './pages/CountriesSearch'
 import Counter from "./pages/Counter"
 import UserForm from "./pages/UserForm"
 import UserIndex from "./pages/react-context-api/UserIndex"
-import UseReducerHook from "./pages/react-context-api/use-reducer-hook/UseReducerHook"
-import TodosUsingUseReducerHook from "./pages/react-context-api/use-reducer-hook/TodosUsingUseReducer"
+import UseReducerHook from "./pages/use-reducer-hook/UseReducerHook"
+import TodosUsingUseReducerHook from "./pages/use-reducer-hook/TodosUsingUseReducer"
+import UseMemoHook from "./pages/use-memo-hook/UseMemoHook"
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
             {/* <UserForm /> */}
             {/* <UserIndex /> */}
             {/* <UseReducerHook /> */}
-            <TodosUsingUseReducerHook />
+            {/* <TodosUsingUseReducerHook /> */}
+            <UseMemoHook />
           </div>
         </Col>
       </Row>

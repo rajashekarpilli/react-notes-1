@@ -49,7 +49,7 @@ export default function TodosUsingUseReducerHook() {
                 </Form.Group>
             </Form>
             <ListGroup>
-                {todos.map(todo => <ListGroup.Item><Todo key={todo.id} todo={todo} dispatch={dispatch} /></ListGroup.Item>)}
+                {todos.map(todo => <ListGroup.Item key={todo.id}><Todo todo={todo} dispatch={dispatch} /></ListGroup.Item>)}
             </ListGroup>
         </>
     )
