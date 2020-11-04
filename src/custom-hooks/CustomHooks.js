@@ -1,4 +1,3 @@
-import { isInaccessible } from '@testing-library/react'
 import React, { useState } from 'react'
 
 // Counter hook

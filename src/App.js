@@ -1,10 +1,12 @@
-import React, { useState, useEffect, Fragment } from "react"
+import React from "react"
 import { Container, Row, Col } from 'react-bootstrap'
 import FetchDogs from "./pages/FetchDogs"
 import CountriesSearch from './pages/CountriesSearch'
 import Counter from "./pages/Counter"
 import UserForm from "./pages/UserForm"
 import UserIndex from "./pages/react-context-api/UserIndex"
+import UseReducerHook from "./pages/react-context-api/use-reducer-hook/UseReducerHook"
+import TodosUsingUseReducerHook from "./pages/react-context-api/use-reducer-hook/TodosUsingUseReducer"
 
 function App() {
   return (
@@ -12,12 +14,14 @@ function App() {
       <Row>
         <Col md={12}>
           <div className="App">
-            <h2>Practice App</h2>
+            <h2 className="mb-4 mt-3">React Notes App</h2>
             {/* <CountriesSearch /> */}
-            {/* <Counter />
-            <FetchDogs /> */}
+            {/* <Counter /> */}
+            {/* <FetchDogs /> */}
             {/* <UserForm /> */}
-            <UserIndex />
+            {/* <UserIndex /> */}
+            {/* <UseReducerHook /> */}
+            <TodosUsingUseReducerHook />
           </div>
         </Col>
       </Row>

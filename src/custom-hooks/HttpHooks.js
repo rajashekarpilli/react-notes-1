@@ -16,6 +16,6 @@ export const useFetch = (url, options) => {
             }
         }
         FetchData()
-    }, [])
+    }, [url, options])
     return { response, error }
 }
