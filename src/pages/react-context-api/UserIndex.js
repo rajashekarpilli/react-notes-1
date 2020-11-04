@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { UserProvider } from './UserContext';
 import Name from './NameComponent';
 import Location from './LocationComponent';
@@ -17,7 +16,7 @@ function UserIndex() {
                 <div className="container">
                     <UserForm />
 
-                    <h2 className="is-size-4">Display User Info Here 👇</h2>
+                    <h2 className="is-size-4">Display User Info Here <span role="img" aria-label="emoji">👇</span></h2>
                     <p>
                         These two children components will receive data. These could
                         be nested components.
