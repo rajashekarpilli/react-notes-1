@@ -7,7 +7,7 @@ function slowFunction(num) {
     return num * 2
 }
 
-export default function UseMemoHook(props) {
+export default function UseMemoHook() {
     const [number, setNumber] = useState(0)
     const [dark, setDark] = useState(false)
 
