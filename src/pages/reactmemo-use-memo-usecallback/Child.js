@@ -1,7 +1,7 @@
 import React, { memo, useMemo } from 'react'
 import { Button } from 'react-bootstrap'
 
-export default function Child(props) {
+function Child(props) {
     const { counter, updateCounter } = props
 
     const childNumber = useMemo(() => {
@@ -21,3 +21,5 @@ export default function Child(props) {
         </div>
     )
 }
+
+export default memo(Child)
