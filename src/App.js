@@ -8,6 +8,7 @@ import UserIndex from "./pages/react-context-api/UserIndex"
 import UseReducerHook from "./pages/use-reducer-hook/UseReducerHook"
 import TodosUsingUseReducerHook from "./pages/use-reducer-hook/TodosUsingUseReducer"
 import UseMemoHook from "./pages/use-memo-hook/UseMemoHook"
+import UseCallbackHook from "./pages/use-callback-hook/UseCallbackHook"
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
             {/* <UserIndex /> */}
             {/* <UseReducerHook /> */}
             {/* <TodosUsingUseReducerHook /> */}
-            <UseMemoHook />
+            {/* <UseMemoHook /> */}
+            <UseCallbackHook />
           </div>
         </Col>
       </Row>
