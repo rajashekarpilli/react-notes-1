@@ -9,6 +9,7 @@ import UseReducerHook from "./pages/use-reducer-hook/UseReducerHook"
 import TodosUsingUseReducerHook from "./pages/use-reducer-hook/TodosUsingUseReducer"
 import UseMemoHook from "./pages/use-memo-hook/UseMemoHook"
 import UseCallbackHook from "./pages/use-callback-hook/UseCallbackHook"
+import ReactMemoUseMemoUseCallback from "./pages/reactmemo-use-memo-usecallback/ReactMemoUseMemoUseCallback"
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
             {/* <UseReducerHook /> */}
             {/* <TodosUsingUseReducerHook /> */}
             {/* <UseMemoHook /> */}
-            <UseCallbackHook />
+            {/* <UseCallbackHook /> */}
+            <ReactMemoUseMemoUseCallback />
           </div>
         </Col>
       </Row>
