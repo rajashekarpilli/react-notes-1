@@ -1,11 +1,13 @@
-import React, {useCallback, useState} from 'react'
+import React, {useCallback, useState, useMemo} from 'react'
 import { Button } from 'react-bootstrap'
 import Child from './Child'
 
 export default function ReactMemoUseMemoUseCallback() {
     const [counter, setCounter] = useState(0)
     const [input, setInput] = useState('')
-    const arr = [1, 2, 3]
+    const arr = useMemo(() => {
+        return [1, 2, 3]
+    }, [])
 
     const updateCounterFromChild = useCallback(() => {
         setCounter(counter + 1)
