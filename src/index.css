@@ -10,6 +10,6 @@ h2, .h2, .fw-bold{font-weight: 700;}
 .todos-list{display: flex;justify-content: space-between;align-items: center;}
 .complete{color: #aaa;text-decoration: line-through;}
 .inprogress{color: #000;}
-
+.child{border: 1px solid #aaa;padding: 100px;}
 
 
