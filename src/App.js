@@ -10,6 +10,8 @@ import TodosUsingUseReducerHook from "./pages/use-reducer-hook/TodosUsingUseRedu
 import UseMemoHook from "./pages/use-memo-hook/UseMemoHook"
 import UseCallbackHook from "./pages/use-callback-hook/UseCallbackHook"
 import ReactMemoUseMemoUseCallback from "./pages/reactmemo-use-memo-usecallback/ReactMemoUseMemoUseCallback"
+import UseRefHook from "./pages/use-ref/UseRefHook"
+import ObjectDestructuring from "./pages/es6-concepts/ObjectDestructuring"
 
 function App() {
   return (
@@ -27,7 +29,9 @@ function App() {
             {/* <TodosUsingUseReducerHook /> */}
             {/* <UseMemoHook /> */}
             {/* <UseCallbackHook /> */}
-            <ReactMemoUseMemoUseCallback />
+            {/* <ReactMemoUseMemoUseCallback /> */}
+            {/* <UseRefHook /> */}
+            <ObjectDestructuring />
           </div>
         </Col>
       </Row>
